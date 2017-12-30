@@ -32,7 +32,6 @@ class Config:
 
             'version': '1.00',
             'keyVersion': '1',
-            # salt: Will allow support of 'Legacy Versions' as the hashing algorithm is changed periodically
             'salt': self.generate_random_salt(),
             'clipboardTime': '20',
             'hideSecretTime': '7',
